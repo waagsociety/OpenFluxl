@@ -1,5 +1,11 @@
 #OpenFluxl Components v.0.1
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| 1     | 1 | IRFP260NPBF N-channel MOSFET |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 | No | Amount | Description | Supplier | Cost |
 | -- | ------ | ----------- | -------- | ---- |
 | 1 | 1 | IRFP260NPBF N-channel MOSFET | Farnell | 4.11 |
