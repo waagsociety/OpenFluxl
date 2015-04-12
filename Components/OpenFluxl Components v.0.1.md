@@ -17,6 +17,6 @@
 |13|6|MCMF006FF2200A50 220 resistor|[Farnell](http://nl.farnell.com/multicomp/mcmf006ff2200a50/resistor-metal-film-220-ohm-1/dp/2401736)|0.09|
 |14|6|703-0100 Red 5mm LED|[Farnell](http://nl.farnell.com/multicomp/703-0100/led-5mm-red-400mcd-643nm/dp/2112111)|1.31|
 |15|6|SIHF15N60E-E3 N-channel MOSFET|[Farnell](http://nl.farnell.com/vishay-siliconix/sihf15n60e-e3/mosfet-n-ch-600v-15a-to220fp/dp/2283636)|11.50|
-|16|P6KE350A 330V TVS Diode|[Farnell](http://nl.farnell.com/fairchild-semiconductor/p6ke350a/diode-tvs-600w-smd-do-15/dp/1470976)|0.13|
+|16|1|P6KE350A 330V TVS Diode|[Farnell](http://nl.farnell.com/fairchild-semiconductor/p6ke350a/diode-tvs-600w-smd-do-15/dp/1470976)|0.13|
 |17|1|A000066 Arduino Uno|[Farnell](http://nl.farnell.com/arduino/a000066/atmega328-arduino-uno-eval-board/dp/2075382)|22.15|
 |18|1|1195114 1000V isolator voor DEV AU USB-ISO OLX|[Conrad](https://www.conrad.nl/nl/developmentboard-olimex-usb-iso-1195114.html)|57.99|
