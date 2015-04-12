@@ -13,7 +13,7 @@ The circuit is based on: http://reibot.org/2011/08/07/intro-to-boost-converter/
 
 A TVS diode is added in the circuit over the main capacitor as an additional safety measure.
 
-![Circuit Scheme](/Pictures/OpenFluxl Circuit v.0.1.png)
+![Circuit Scheme](https://raw.githubusercontent.com/waagsociety/OpenFluxl/master/Circuit/OpenFluxl%20Circuit%20v.0.1.png)
 
 # Arduino Code
 
@@ -31,7 +31,7 @@ The 1000V USB prototector is optional, for the brave.
 
 # Pictures
 Boost Converter:
-![Boost Converter](/Pictures/OpenFluxl v.0.1 Voltage Booster.jpg)
+![Boost Converter](https://raw.githubusercontent.com/waagsociety/OpenFluxl/master/Pictures/OpenFluxl%20v.0.1%20Voltage%20Booster.jpg)
 
 Fluxl Controller:
-![Fluxl Controller](/Pictures/OpenFluxl v.0.1 Fluxl Controller.jpg)
+![Fluxl Controller](https://raw.githubusercontent.com/waagsociety/OpenFluxl/master/Pictures/OpenFluxl%20v.0.1%20Fluxl%20Controller.jpg)
