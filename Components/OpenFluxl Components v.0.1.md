@@ -1,7 +1,6 @@
 #OpenFluxl Components v.0.1
 
-#|Amount|Description|Supplier NL|Cost
--:|----:|:---------|:-------|---:
+No|Amount|Description|Supplier NL|Cost
 1|1|IRFP260NPBF N-channel MOSFET|[Farnell](http://nl.farnell.com/international-rectifier/irfp260npbf/mosfet-n-200v-49a-to-247ac/dp/8649294)|4.11
 2|1|MIC4422YN MOSFET Driver|[Farnell](http://nl.farnell.com/micrel-semiconductor/mic4422yn/ic-mosfet-driver-non-inverting/dp/1556746)|2.61
 3|1|MBR40250TG Schottky Diode|[Farnell](http://nl.farnell.com/on-semiconductor/mbr40250tg/diode-schottky-40a-250v-to-220/dp/1431066)|2.17
@@ -20,5 +19,3 @@
 16|P6KE350A 330V TVS Diode|[Farnell](http://nl.farnell.com/fairchild-semiconductor/p6ke350a/diode-tvs-600w-smd-do-15/dp/1470976)|0.13
 17|1|A000066 Arduino Uno|[Farnell](http://nl.farnell.com/arduino/a000066/atmega328-arduino-uno-eval-board/dp/2075382)|22.15
 18|1|1195114 1000V isolator voor DEV AU USB-ISO OLX|[Conrad](https://www.conrad.nl/nl/developmentboard-olimex-usb-iso-1195114.html)|57.99
---|--|---|---|---
-||*Total costs*||
