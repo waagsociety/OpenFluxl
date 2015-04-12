@@ -1,5 +1,11 @@
 #OpenFluxl Components v.0.1
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 No|Amount|Description|Supplier NL|Cost
 1|1|IRFP260NPBF N-channel MOSFET|[Farnell](http://nl.farnell.com/international-rectifier/irfp260npbf/mosfet-n-200v-49a-to-247ac/dp/8649294)|4.11
 2|1|MIC4422YN MOSFET Driver|[Farnell](http://nl.farnell.com/micrel-semiconductor/mic4422yn/ic-mosfet-driver-non-inverting/dp/1556746)|2.61
