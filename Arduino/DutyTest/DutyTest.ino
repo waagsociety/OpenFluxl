@@ -3,7 +3,7 @@ OpenFluxl Arduino Test Code
 - Without Feedback or PID Control
 */
 
-int DriverPin = 11;
+int DriverPin = 3;
 
 void setup() {
   // put your setup code here, to run once:
@@ -13,6 +13,7 @@ void setup() {
 
   // Start with 0% duty cycle
   analogWrite(DriverPin,0);
+  analogWrite(11,0);
 
 }
 
