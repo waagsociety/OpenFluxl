@@ -28,7 +28,7 @@ String buffer;
 
 // Pins
 int DriverPin = 3;
-int FluxlPins[(numFluxls -1)] = {7,8,9,10,11,12};
+int FluxlPins[] = {7,8,9,10,11,12};
 
 void setup(){
   
@@ -66,7 +66,7 @@ void loop(){
     if (c == '\n') {
       if(buffer.startsWith("id")) {
         Serial.print("id:OpenFluxl "); // device identifier
-        Serial.print(FluxlVersion); 
+        Serial.println(FluxlVersion); 
       } else if (buffer.startsWith("vol")) {
         // Change target voltage
         targetVoltage = buffer.substring(3).toInt();
