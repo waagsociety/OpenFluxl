@@ -5,7 +5,7 @@ PID Controller based on:
 http://reibot.org/2011/08/07/intro-to-boost-converter/
 
 Check wiring:
-- Feedback connected to Analog 1.
+- Feedback connected to Analog 1.s
 - Pwm pin is on digital 3
 
 */
@@ -36,7 +36,7 @@ void setup(){
   Serial.begin(115200);
 
   // Set Pin Modes
-  for(i=0;i<numFluxls;i++) {
+  for(int i=0;i<numFluxls;i++) {
     pinMode(FluxlPins[i],OUTPUT);
   }
   pinMode(DriverPin, OUTPUT); // Mosfet Driver (OCR2A)
@@ -133,7 +133,7 @@ void PidUpdate() {
 
 void moveDrop(int TargetFluxl) {
   // Open the circuit through the target Fluxl
-  for(i=0;i<numFluxls;i++) {
+  for(int i=0;i<numFluxls;i++) {
     if(i==TargetFluxl) {
       digitalWrite(FluxlPins[i],HIGH);
       
