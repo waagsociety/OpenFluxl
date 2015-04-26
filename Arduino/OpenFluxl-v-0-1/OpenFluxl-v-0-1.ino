@@ -82,7 +82,7 @@ void loop(){
         Serial.println(F(" V"));
       } else if (buffer.startsWith("fluxl")) {
         // move droplet to new fluxl
-        int tmpInt = buffer.substring(3).toInt();
+        int tmpInt = buffer.substring(5).toInt();
         
         // Sanity check
         if(tmpInt < 0) tmpInt = 0;
