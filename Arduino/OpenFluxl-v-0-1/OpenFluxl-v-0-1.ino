@@ -6,7 +6,7 @@ http://reibot.org/2011/08/07/intro-to-boost-converter/
 
 Check wiring:
 - Feedback connected to Analog 1.
-- Pwm pin is on digital 11
+- Pwm pin is on digital 3
 
 */
 
@@ -24,20 +24,28 @@ PID myPID(&Input, &Output, &Setpoint, .8, .1, .01, DIRECT);
 // Vars
 int targetVoltage = 100;
 String buffer;
-int DriverPin = 11;
+int DriverPin = 3;
 
 void setup(){
   
+  // Open Serial Connection
   Serial.begin(115200);
+
+  // Set Pin Modes
+  pinMode(11, OUTPUT); // OCR2B 
+  pinMode(DriverPin, OUTPUT); // OCR2A  
   
+  // Change PWM frequency
   pwmSetup(); // set pwm to 31 KHz
   
+  // Set PID
   myPID.SetMode(AUTOMATIC);
   myPID.SetOutputLimits(0,255);
   
   // PID update speed in ms
   myPID.SetSampleTime(10); 
   
+  // Print message
   Serial.print("OpenFluxl ");
   Serial.println(FluxlVersion);
 }
@@ -106,9 +114,6 @@ void PidUpdate() {
 }
 
 void pwmSetup(){
-
-  pinMode(3, OUTPUT); // OCR2B 
-  pinMode(DriverPin, OUTPUT); // OCR2A
   
   /* Derived from: http://letsmakerobots.com/content/changing-pwm-frequencies-arduino-controllers */
 //---------------------------------------------- Set PWM frequency for D5 & D6 -------------------------------
@@ -138,7 +143,7 @@ TCCR2B = TCCR2B & B11111000 | B00000001;    // set timer 2 divisor to     1 for 
 //TCCR2B = TCCR2B & B11111000 | B00000110;    // set timer 2 divisor to   256 for PWM frequency of   122.55 Hz
 //TCCR2B = TCCR2B & B11111000 | B00000111;    // set timer 2 divisor to  1024 for PWM frequency of    30.64 Hz
 
-  analogWrite(3,0);
+  analogWrite(11,0);
   analogWrite(DriverPin,0);
   
 }
